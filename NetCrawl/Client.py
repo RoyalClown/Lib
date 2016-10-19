@@ -1,12 +1,12 @@
 import getpass
 import json
 import os
+import time
 from urllib.parse import urlencode
 
 import requests
-import time
 
-from Constant.Connection import *
+from .Constant import *
 
 
 class NameClient:

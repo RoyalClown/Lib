@@ -1,10 +1,12 @@
 import time
 from pymongo import MongoClient
 
+from Lib.DBConnection.Constant import Mongo_Url
+
 
 class MongoConnection:
     def __init__(self, data=None):
-        conn = MongoClient('localhost', 27017)
+        conn = MongoClient(*Mongo_Url)
         self.db = conn.local
         self.col = self.db.product
         self.data = data

@@ -4,8 +4,8 @@ import json
 import requests
 from bs4 import BeautifulSoup
 
-from Connection.Proxy import Proxy
-from Constant.Connection import *
+from .Constant import *
+from .Proxy import Proxy
 
 
 class HtmlAnalyse:
