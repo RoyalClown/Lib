@@ -48,6 +48,6 @@ class HtmlAnalyse:
 
 
 if __name__ == "__main__":
-    html_analyse = HtmlAnalyse("http://www.baidu.com")
+    html_analyse = HtmlAnalyse("http://www.sepb.gov.cn/hb/fa/cms/shhj/hjzl_login.jsp?flag=1")
     content = html_analyse.get_bs_contents()
     print(content)
