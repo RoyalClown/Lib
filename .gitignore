@@ -93,5 +93,5 @@ ENV/
 .gitignore
 .idea/vcs.xml
 .idea/workspace.xml
-NetCrawl/__pycache__/
+Lib/NetCrawl/__pycache__/
 Constant/__pycache__/
